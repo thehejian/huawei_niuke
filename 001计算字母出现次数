@@ -2,6 +2,8 @@
 read a
 read b
 echo $a | grep -i -o $b | wc -l
+#-i 忽略大小写
+#-o 只匹配显示找出来的内容
 
 #sed -i '9,26s/^/#/' 001计算字母出现次数.sh
 #cat 001计算字母出现次数.sh
